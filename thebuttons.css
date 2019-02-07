@@ -1,0 +1,28 @@
+
+.button {
+  border-radius: 12px;  
+  border: none;
+  /* color: white; */
+  padding: 20px;
+  width: 20%;
+  height: 100px;
+  /* text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px; */
+  cursor: pointer;
+}
+
+.button1 {  
+    background-color:blue; 
+}
+.button2 {
+    background-color:red;
+}
+.button3 {
+    background-color:green;
+}
+.button4 {
+    background-color:yellow;
+}
