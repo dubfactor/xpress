@@ -1,0 +1,21 @@
+p, h1  {
+    color: red;
+    width: 25%;
+    border: 1px solid black;
+}
+
+#my-id  {
+    color:blue;
+}
+
+#richard-h1-id  {
+    color:red;
+    margin:20px;
+    padding: 10px;
+}
+
+.my-class   {
+    color:purple;
+    margin:10px;
+    padding: 20px;
+}
