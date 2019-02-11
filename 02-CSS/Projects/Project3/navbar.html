@@ -1,156 +1,93 @@
 <!DOCTYPE html>
-<html>
-<head>
-
-    <title>Nav Bar</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="navbar.css">
-
-</head>
-<body>
-
-<!-- <h2>Hoverable Dropdown</h2>
-<p>Move the mouse over the text below to open the dropdown content.</p> -->
-
-<!-- <div class="dropdown">
-  <span>Home</span>
-  <div class="dropdown-content">
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-</div>
-</div>
- ‘About’ should bring a dropdown menu that gives links to ‘Bio’ and ‘Portfolio’. -->
-<!-- <div class="dropdown">
-    <span>About</span>
-    <div class="dropdown-content">
-    <p>Bio</p>
-    <p>‘Portfolio’</p>
-    <p></p>
-    <p></p>
-  </div>
-  </div>
-
-  <div class="dropdown">
-    <span>Locations</span>
-    <div class="dropdown-content">
-    <p>Austin</p>
-    <p>Houston</p>
-    <p>San Antonio</p>
-    <p>Dallas</p>
-  </div>
-  </div>
-  Hovering over ‘FAQ’ should bring a dropdown menu that gives links to Why do business with us and Our Partners’.
-  <div class="dropdown">
-    <span>FAQ</span>
-    <div class="dropdown-content">
-    <p>Why do business with us and Our Partners’</p>
-    <p></p>
-    <p></p>
-    <p></p>
-  </div>
-  </div>
-  Hovering over ‘Contact’ should bring a dropdown menu that gives links to ‘Phone’ and ‘Email us’. 
-
-  <div class="dropdown">
-    <span>Contact</span>
-    <div class="dropdown-content">
-    <p>Phone</p>
-    <p>Email Us</p>
-    <p></p>
-    <p></p>
-  </div>
-  </div> --> 
-<!-- 
-  Project #3: Navigation Bars
-For this project we are going to build out a navigation bar like the ones you would commonly see at the top of most websites.
-
-The navigation bar should:
-
-Have 5 top menu items: Home, About, Locations, FAQ and Contact.
-Hovering over ‘About’ should bring a dropdown menu that gives links to ‘Bio’ and ‘Portfolio’.
-Hovering over Locations should bring a dropdown menu that gives links to Austin, ‘Houston’, ‘Dallas’, and ‘San Antonio’.
-Hovering over ‘FAQ’ should bring a dropdown menu that gives links to Why do business with us and Our Partners’.
-Hovering over ‘Contact’ should bring a dropdown menu that gives links to ‘Phone’ and ‘Email us’.
-The top menu bars should have a dark blue color (#01579B).
-When you hover over a top menu item, it should change to a light blue color (#9AD1E3).
-When you hover over a submenu item, it should change to a light green color (#ACE39A).
-The body of the webpage should have a light gray color (#ECEFF1).
-The menu blocks should have a height of 70px and a width of 300px.
-You should Google Fonts and have the font ‘Oswald’.
-Hints:
-
-Your HTML will have a list within a list.
-You’ll want to remove any default styling from the lists.
-You will need to use display: block.
-You will need to use the CSS hover selector.
-You will need to use floats.
-Final note: With CSS selectors, there are multiple ways of selecting things. 
-You can achieve the same effects by doing things differently. 
-But remember that you don’t necessarily need to create multiple classes and ID’s for everything that you want to select. 
-For example, try selecting specific list items with “li ul li”, and links within those list items with “li ul li a”. --> 
-
-<body-align="center">
-  <!-- <button class="button button1"></button> -->
-  <div class="button button1">
-      <span>About</span>
-      <div class="dropdown-content">
-      <p>Bio</p>
-      <p>Portfolio</p>
-    </div>
-    </div>
-  <div class="button button2">
-      <span>Button 2</span>
-      <div class="dropdown-content">
-      <p>1</p>
-      <p>2</p>
-    </div>
-  </div>
-  <div class="button button3">
-      <span>Button 3</span>
-      <div class="dropdown-content">
-      <p>1</p>
-      <p>2</p>
-    </div>
-
-  </div>
-  <div class="button button4">
-      <span>Button 4</span>
-      <div class="dropdown-content">
-      <p>1</p>
-      <p>2</p>
-    </div>
-
-  </div>
-  <div class="button button5">
-      <span>Button 2</span>
-      <div class="dropdown-content">
-      <p>1</p>
-      <p>2</p>
-    </div>
-  </div>
-</body-align>
-
-
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]> <html class="no-js"> <![endif]-->
-  <!-- <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="navbar.css">
-  </head>
-  <body>
-    [if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="navbar.css">
+    </head>
+    <body>
+        <!-- Have 5 top menu items: Home, About, Locations, FAQ and Contact. -->
+      <div class="navbar">
+        <div class="dropdown">
+              <button class="dropbtn">Home 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Home 1</a>
+                <a href="#">Home 2</a>
+                <a href="#">Home 3</a>
+              </div>
+            </div> 
+
+            <div class="dropdown">
+                <button class="dropbtn">About
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Bio</a>
+                  <a href="#">Portfolio</a>
+                  
+                </div>
+              </div> 
+          <!-- Hovering over Locations should bring a 
+          dropdown menu that gives links to Austin, ‘Houston’, ‘Dallas’, and ‘San Antonio’. -->
+
+
+            <div class="dropdown">
+                <button class="dropbtn">Locations
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Houston</a>
+                  <a href="#">Dallas</a>
+                  <a href="#">San Antonio</a>
+                </div>
+              </div> 
+              <!-- Hovering over ‘FAQ’ should bring a 
+              dropdown menu that gives links to Why do business with us and Our Partners’. -->
+
+              <div class="dropdown">
+                  <button class="dropbtn">FAQ
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Why do business with us</a>
+                    <a href="#">Our Partners</a>
+                  </div>
+              </div> 
+  
+              <!-- Hovering over ‘Contact’ should bring a dropdown menu that gives
+               links to ‘Phone’ and ‘Email us’. -->
+                <div class="dropdown">
+                    <button class="dropbtn">Contact
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Phone</a>
+                      <a href="#">Email Us</a>
+                    </div>
+                </div> 
     
-    <script src="" async defer></script>
-  </body>
-</html> 
+        
+
+        <!-- <a href="#about">News</a> -->
+        <!-- <div class="dropdown">
+          <button class="dropbtn">Locations 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>  -->
+      </div>
+      
+    </body>
+</html>

@@ -1,102 +1,70 @@
-
-
-.dropdown {
-  position: relative;
-  display: inline-block;
+/* Navbar container */
+.navbar {
+  /* overflow: hidden; */
+  background-color: #01579B /*The top menu bars should have a dark blue color (#01579B).333;*/
+  font-family: Arial;
 }
 
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #01579B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  /* overflow: hidden; */
+  color: #01579B
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: #01579B;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #9AD1E3;
+  /* background-color: red; /*When you hover over a top menu item, it should change to a light blue color (#9AD1E3). */
+}
+
+/* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   background-color: #01579B;
-  min-width: 300px;
-
+  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
   z-index: 1;
 }
 
-.dropdown:hover {
-  color:#9AD1E3;
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  color:#ACE39A;
 }
-
-
-.button {
-    border-radius: 12px;  
-    border: none;
-    color:blue;
-    padding: 20px;
-    width: 300px;
-    height: 70px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-  .button1 {  
-    background-color:#01579B; 
-}
-.button1:hover  {
-  background-color: #9AD1E3;
-}
-.button2 {
-    background-color:#01579B;
-}
-.button2:hover  {
-  background-color: #9AD1E3;
-}
-.button3 {
-    background-color:#01579B;
-}
-.button3:hover  {
-  background-color: #9AD1E3;
-}
-.button4 {
-    background-color:#01579B;
-}
-.button4:hover  {
-  background-color: #9AD1E3;
-}
-.button5 {
-    background-color:#01579B;
-}
-.button5:hover  {
-  background-color: #9AD1E3;
-}
-
-  /* <!-- 
-  Project #3: Navigation Bars
-For this project we are going to build out a navigation bar like the ones you would commonly see at the top of most websites.
-
-The navigation bar should:
-
-Have 5 top menu items: Home, About, Locations, FAQ and Contact.
-Hovering over ‘About’ should bring a dropdown menu that gives links to ‘Bio’ and ‘Portfolio’.
-Hovering over Locations should bring a dropdown menu that gives links to Austin, ‘Houston’, ‘Dallas’, and ‘San Antonio’.
-Hovering over ‘FAQ’ should bring a dropdown menu that gives links to Why do business with us and Our Partners’.
-Hovering over ‘Contact’ should bring a dropdown menu that gives links to ‘Phone’ and ‘Email us’.
-The top menu bars should have a dark blue color (#01579B).
-When you hover over a top menu item, it should change to a light blue color (#9AD1E3).
-When you hover over a submenu item, it should change to a light green color (#ACE39A).
-The body of the webpage should have a light gray color (#ECEFF1).
-The menu blocks should have a height of 70px and a width of 300px.
-You should Google Fonts and have the font ‘Oswald’.
-Hints:
-
-Your HTML will have a list within a list.
-You’ll want to remove any default styling from the lists.
-You will need to use display: block.
-You will need to use the CSS hover selector.
-You will need to use floats.
-Final note: With CSS selectors, there are multiple ways of selecting things. 
-You can achieve the same effects by doing things differently. 
-But remember that you don’t necessarily need to create multiple classes and ID’s for everything that you want to select. 
-For example, try selecting specific list items with “li ul li”, and links within those list items with “li ul li a”. -->
-   */
