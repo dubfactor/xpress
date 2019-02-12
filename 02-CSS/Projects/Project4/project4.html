@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+    
+    <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The News</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="project4.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">         -->
+            <style> 
+                body {
+                  font-family: 'Oswald', serif;
+                  font-size: 24px;
+                }
+              </style>
+          
+    </head>
+    <body>
+   
+
+        <!-- There will be five menu items: Trending, Tech, Politics, About, FAQ, Contact -->
+      <!-- <div class="navbar" width="100%" height="75px"> -->
+        <!-- Under ‘Trending’, it should have a dropdown menu with Entertainment, Travel, and Education -->
+       
+        <!-- <div class="logo-dropdown">
+            <button class="logo-dropbtn">The News
+        <i class="far fa-comment"></i>
+        </button> -->
+        </div>
+    <!-- <h1>The News <img src="file:///home/dubfactor/Desktop/BOOTCAMP/Students_Jan_2019-master/02-CSS/Projects/Project4/images/comment-regular.svg" height="42px"> </h1></button> -->
+       
+    <div class="dropdown">
+            <button class="dropbtn">The News<img src="images/comment-regular.svg" height=42px width="42px">
+              <!-- <i class="fa fa-caret-down"></i> -->
+            </button>
+            <div class="dropdown-content">
+              <!-- <a href="#Entertainment">Entertainment</a>
+              <a href="#Travel">Travel</a>
+              <a href="#Education">Education</a> -->
+            </div>
+          </div> 
+    <!-- <a class="active" href="#home">The News <i class="far fa-comment"></i></a> -->
+    
+            <div class="dropdown">
+              <button class="dropbtn">Trending 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#Entertainment">Entertainment</a>
+                <a href="#Travel">Travel</a>
+                <a href="#Education">Education</a>
+              </div>
+            </div> 
+            <!-- Under ‘Tech’, it should have a dropdown menu with Latest, Programming, and App Reviews -->
+
+            <div class="dropdown">
+                <button class="dropbtn">Tech
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#Bio">Latest</a>
+                  <a href="#Portfolio">Programming</a>
+                  <a href="#App_Reviews">App Reviews</a>
+                  </div>
+              </div> 
+          
+              <!-- Under ‘Politics’, it should have a dropdown menu with Headlines, The Facts, and The Gossip -->
+
+
+            <div class="dropdown">
+                <button class="dropbtn">Politics
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#Headlines">Headlines</a>
+                  <a href="#The_Facts">The Facts</a>
+                  <a href="#The_Gossip">The Gossip</a>
+                </div>
+              </div> 
+              
+              <!-- Under ‘About’, it should have a dropdown menu with Our Story and Donate
+. -->
+              <div class="dropdown">
+                  <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#Our_Story">Our Story</a>
+                    <a href="#Donate">Donate</a>
+                  </div>
+              </div> 
+              <!-- Under ‘FAQ’, it should have a dropdown menu with Our Policy and Careers -->
+
+              <div class="dropdown">
+                <button class="dropbtn">FAQ
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#Our_Policy">Our Policy</a>
+                  <a href="#Careers">Careers</a>
+                </div>
+            </div> 
+
+              <!-- Under Contact, it should have a dropdown menu with Email and Phone
+ -->
+                <div class="dropdown">
+                    <button class="dropbtn">Contact
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#Email">Email</a>
+                      <a href="#Phone">Phone</a>
+                    </div>
+                </div> 
+    
+        
+
+        <!-- <a href="#about">News</a> -->
+        <!-- <div class="dropdown">
+          <button class="dropbtn">Locations 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>  -->
+      </div>
+      <br><br><br>
+      <p>
+
+
+        <p>
+      The navigation bar should:</p>
+
+Have 5 top menu items: Home, About, Locations, FAQ and Contact.<br>
+Hovering over ‘About’ should bring a dropdown menu that gives links to ‘Bio’ and ‘Portfolio’.<br>
+Hovering over Locations should bring a dropdown menu that gives links to Austin, ‘Houston’, ‘Dallas’, and ‘San Antonio’.<br>
+Hovering over ‘FAQ’ should bring a dropdown menu that gives links to Why do business with us and Our Partners’.<br>
+Hovering over ‘Contact’ should bring a dropdown menu that gives links to ‘Phone’ and ‘Email us’.<br>
+The top menu bars should have a dark blue color (#01579B).<br>
+When you hover over a top menu item, it should change to a light blue color (#9AD1E3).<br>
+When you hover over a submenu item, it should change to a light green color (#ACE39A).<br>
+The body of the webpage should have a light gray color (#ECEFF1).<br>
+The menu blocks should have a height of 70px and a width of 300px.<br>
+You should Google Fonts and have the font ‘Oswald’.<br>
+Hints:<br>
+
+Your HTML will have a list within a list.<br>
+You’ll want to remove any default styling from the lists.<br>
+You will need to use display: block.<br>
+You will need to use the CSS hover selector.<br>
+You will need to use floats.<br>
+Final note: With CSS selectors, there are multiple ways of selecting things. <br>
+You can achieve the same effects by doing things differently. <br>
+But remember that you don’t necessarily need to <br>
+create multiple classes and ID’s for everything that you want to select. <br>
+For example, try selecting specific list items with “li ul li”, and links within <br>
+those list items with “li ul li a”.</p>>
+      
+    </body>
+</html>
