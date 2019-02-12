@@ -1,3 +1,5 @@
+h1 { font-family: Oswald; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Oswald; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Oswald; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Oswald; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Oswald; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+
 body  {
   background-color:#ECEFF1;
 }
@@ -23,6 +25,7 @@ body  {
 .dropdown {
   float: left;
   color: #01579B
+  text-align: center;
   width: 300px;
   height: 70px;
 }
@@ -35,6 +38,7 @@ body  {
   color: black;
   padding: 14px 16px;
   background-color: #01579B;
+  text-align: center;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   width:300px;
@@ -51,6 +55,7 @@ body  {
   display: none;
   position: absolute;
   background-color: #01579B;
+  text-align: center;
   min-width: 300px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -61,9 +66,9 @@ body  {
   float: none;
   color: black;
   padding: 12px 16px;
+  text-align: center;
   text-decoration: none;
   display: block;
-  text-align: left;
 }
 
 /* Add a grey background color to dropdown links on hover */
