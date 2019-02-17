@@ -14,6 +14,8 @@ body  {
 /* Current/active navbar link */
 .active {
     background-color: #4CAF50;
+    transition-property: color, background-color, left, top;
+    transition-duration: .6s, .6s, .6s, .6s;
   }
 /*The navbar should:
 
@@ -50,6 +52,8 @@ Should change colors when you hover over a menu item (#546E7A) */
   margin-left: auto;
   margin-right: auto;
   width:auto;
+  transition-property: color, background-color, left, top;
+  transition-duration: .6s, .6s, .6s, .6s;
   /* width: 700px; */
 }
 
@@ -67,6 +71,9 @@ Have a transition time of 0.6 seconds.*/
   text-align: center;
   width: auto;
   height: 45px;
+  transition-property: color, background-color, left, top;
+  transition-duration: .6s, .6s, .6s, .6s;
+
 }
 
 /* Dropdown button */
@@ -77,6 +84,8 @@ Have a transition time of 0.6 seconds.*/
   color: black;
   padding: 14px 16px;
   background-color: #01579B;
+  transition-property: color, background-color, left, top;
+  transition-duration: .6s, .6s, .6s, .6s;
   text-align: center;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -96,6 +105,8 @@ Be 42px and have top and bottom padding of 15px, and left and right padding of 3
     color: black;
     padding: 15px 35px;
     background-color: #01579B;
+    transition-property: color, background-color, left, top;
+    transition-duration: .6s, .6s, .6s, .6s;  
     text-align: center;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
@@ -106,6 +117,9 @@ Be 42px and have top and bottom padding of 15px, and left and right padding of 3
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #546E7A;
+  transition-property: color, background-color, left, top;
+  transition-duration: .6s, .6s, .6s, .6s;
+
   /* background-color: red; /*When you hover over a top menu item, it should change to a light blue color (#9AD1E3). */
 }
 
@@ -114,6 +128,8 @@ Be 42px and have top and bottom padding of 15px, and left and right padding of 3
   display: none;
   position: absolute;
   background-color: #01579B;
+  transition-property: color, background-color, left, top;
+  transition-duration: .6s, .6s, .6s, .6s;
   text-align: center;
   min-width: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -124,6 +140,8 @@ Be 42px and have top and bottom padding of 15px, and left and right padding of 3
 .dropdown-content a {
   float: none;
   color: black;
+  transition-property: color, background-color, left, top;
+  transition-duration: .6s, .6s, .6s, .6s;
   padding: 12px 16px;
   text-align: center;
   text-decoration: none;
@@ -133,9 +151,13 @@ Be 42px and have top and bottom padding of 15px, and left and right padding of 3
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color:#CFD8DC;
+  transition-property: color, background-color, left, top;
+  transition-duration: .6s, .6s, .6s, .6s;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  transition-property: color, background-color, left, top;
+  transition-duration: .6s, .6s, .6s, .6s;
 }
