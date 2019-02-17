@@ -172,6 +172,7 @@ Be 42px and have top and bottom padding of 15px, and left and right padding of 3
 
 .footer {
     font-size: 18px;
+    display: inline-block;
     padding: 50px;
     margin-top: 75px;
     position:absolute;
@@ -189,6 +190,13 @@ Be 42px and have top and bottom padding of 15px, and left and right padding of 3
   color:#B0BEC5;
   font-size: 28px;
   text-align:center;
+ }
+
+ .footer-navbar {
+   text-align:center;
+   margin-left: auto;
+   margin-right:auto;
+   display: inline-block;
  }
 
  /*The copyright should have a color of B0BEC5 and a font size of 16px*/
@@ -220,6 +228,7 @@ Be 42px and have top and bottom padding of 15px, and left and right padding of 3
   transition-property: color, background-color, left, top;
   transition-duration: .6s, .6s, .6s, .6s;
   text-align: center;
+  display: inline-block;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   width:auto;
@@ -383,7 +392,7 @@ Should change colors when you hover over a menu item (#546E7A) */
 
 
 .navbar-footer a:hover, .dropdown-footer:hover .dropbtn-footer {
-  background-color: #546E7A;
+  background-color: #CFD8DC;
   transition-property: color, background-color, left, top;
   transition-duration: .6s, .6s, .6s, .6s;
 
