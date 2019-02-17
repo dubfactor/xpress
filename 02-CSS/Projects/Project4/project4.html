@@ -9,41 +9,43 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>The News</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A News Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="project4.css">
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">         -->
-            <style> 
+             <style> 
                 body {
                   font-family: 'Oswald', serif;
                   font-size: 24px;
                 }
-              </style>
+              </style> 
+
+        
           
     </head>
     <body>
-   
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald');
+        </style> 
 
         <!-- There will be five menu items: Trending, Tech, Politics, About, FAQ, Contact -->
-      <!-- <div class="navbar" width="100%" height="75px"> -->
+
+        <div class="navbar"> 
+     
         <!-- Under ‘Trending’, it should have a dropdown menu with Entertainment, Travel, and Education -->
        
         <!-- <div class="logo-dropdown">
             <button class="logo-dropbtn">The News
         <i class="far fa-comment"></i>
         </button> -->
-        </div>
+      
     <!-- <h1>The News <img src="file:///home/dubfactor/Desktop/BOOTCAMP/Students_Jan_2019-master/02-CSS/Projects/Project4/images/comment-regular.svg" height="42px"> </h1></button> -->
        
     <div class="dropdown">
-            <button class="dropbtn">The News<img src="images/comment-regular.svg" height=42px width="42px">
+            <button class="dropbtn-logo">The News <img src="images/comment-regular.svg" height="42px" width="42px">
               <!-- <i class="fa fa-caret-down"></i> -->
             </button>
-            <div class="dropdown-content">
-              <!-- <a href="#Entertainment">Entertainment</a>
-              <a href="#Travel">Travel</a>
-              <a href="#Education">Education</a> -->
-            </div>
+
           </div> 
     <!-- <a class="active" href="#home">The News <i class="far fa-comment"></i></a> -->
     
@@ -133,37 +135,60 @@
           </div>
         </div>  -->
       </div>
-      <br><br><br>
-      <p>
+      <p></p>
+      <div>
+        <p>Welcome to the News!</p>
+      </div>
+      <!-- <div class="welcome">
+        <h1>Welcome to the News</h1>
+      </div> -->
+<!-- </div> -->
 
 
-        <p>
-      The navigation bar should:</p>
-
-Have 5 top menu items: Home, About, Locations, FAQ and Contact.<br>
-Hovering over ‘About’ should bring a dropdown menu that gives links to ‘Bio’ and ‘Portfolio’.<br>
-Hovering over Locations should bring a dropdown menu that gives links to Austin, ‘Houston’, ‘Dallas’, and ‘San Antonio’.<br>
-Hovering over ‘FAQ’ should bring a dropdown menu that gives links to Why do business with us and Our Partners’.<br>
-Hovering over ‘Contact’ should bring a dropdown menu that gives links to ‘Phone’ and ‘Email us’.<br>
-The top menu bars should have a dark blue color (#01579B).<br>
-When you hover over a top menu item, it should change to a light blue color (#9AD1E3).<br>
-When you hover over a submenu item, it should change to a light green color (#ACE39A).<br>
-The body of the webpage should have a light gray color (#ECEFF1).<br>
-The menu blocks should have a height of 70px and a width of 300px.<br>
-You should Google Fonts and have the font ‘Oswald’.<br>
-Hints:<br>
-
-Your HTML will have a list within a list.<br>
-You’ll want to remove any default styling from the lists.<br>
-You will need to use display: block.<br>
-You will need to use the CSS hover selector.<br>
-You will need to use floats.<br>
-Final note: With CSS selectors, there are multiple ways of selecting things. <br>
-You can achieve the same effects by doing things differently. <br>
-But remember that you don’t necessarily need to <br>
-create multiple classes and ID’s for everything that you want to select. <br>
-For example, try selecting specific list items with “li ul li”, and links within <br>
-those list items with “li ul li a”.</p>>
-      
     </body>
+        <p>Project #4: The News
+                Ready for the big one? Here we go.
+                
+                In this project, you’ll build the front page of a website complete with a navigation bar<br>
+                and footer.
+                The body of the page should:<br>
+                
+                Have the font ‘Oswald’ from Google Fonts have the background color of #eaf0f2<br>
+                The navbar should:<br>
+                
+                Have a font size of 25pxHave a background color of #263238<br>
+                Height of 75px<br>
+                Should change colors when you hover over a menu item (#546E7A)<br>
+                There will be five menu items: Trending, Tech, Politics, About, FAQ, Contact<br>
+                Under ‘Trending’, it should have a dropdown menu with Entertainment, Travel, and Education<br>
+                Under ‘Tech’, it should have a dropdown menu with Latest, Programming, and App Reviews<br>
+                Under ‘Politics’, it should have a dropdown menu with Headlines, The Facts, and The Gossip<br>
+                Under ‘About’, it should have a dropdown menu with Our Story and Donate<br>
+                Under ‘FAQ’, it should have a dropdown menu with Our Policy and Careers<br>
+                Under Contact, it should have a dropdown menu with Email and Phone<br>
+                The logo should:<br>
+                
+                Be 42px and have top and bottom padding of 15px, and left and right padding of 35px,<br>and a line height of 35px.
+                The dropdown menu items in the navigation bar should:
+                <br>
+                Have a height of 45px<br>
+                Have a line height of 45px<br>
+                Top and bottom padding of 15px and left and right padding of 20px<br>
+                Become a light color when you hover over a link (CFD8DC)<br>
+                Have a transition time of 0.6 seconds.<br>
+                The footer should:<br>
+                
+                Have a background color of 263238<br>
+                Have a font size of 18px<br>
+                Padding of 50px on all sides<br>
+                Margin top of 75px<br>
+                “The News” should have a color of B0BEC5 and a font size of 28px<br>
+                The copyright should have a color of B0BEC5 and a font size of 16px<br>
+                When you hover over the links, the color should change to CFD8DC<br>
+                Hints:<br>
+                
+                You will need to set the max height to 0px to make the submenu collapsed by default. <br>You will will also need to use the position and overflow CSS properties.
+                You will use the transition property to make the animation effect of the dropdown menu.</p>
+      
+    
 </html>

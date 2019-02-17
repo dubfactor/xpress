@@ -1,5 +1,12 @@
-h1 { font-family: Oswald; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Oswald; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Oswald; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Oswald; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Oswald; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+h1 { font-family: Oswald; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Oswald; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Oswald; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Oswald; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 900; line-height: 30px; } pre { font-family: Oswald; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
 
+p {
+  text-align: left;
+  font-size: 26px;
+  color:orange;
+  margin: 25px;;
+  padding:30px
+}
 body  {
   background-color:#eaf0f2;
 }
@@ -14,22 +21,36 @@ Have a font size of 25pxHave a background color of #263238
 Height of 75px
  Navbar container */
 .navbar {
-  width: 100%;
-  background-color: #263238;
-  color: black;  /*The top menu bars should have a dark blue color (#01579B).333;*/
+   /* float: center; */
+  
+  text-align: center;
+  background-color: #01579B;
+  /* color: yellow;  The top menu bars should have a dark blue color (#01579B).333; */
   /* font-family: Arial; */
   font-size:25px;
   height: 75px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:804px;
 }
 
 /* Links inside the navbar */
+/* Have a font size of 25pxHave a background color of #263238
+Height of 75px
+Should change colors when you hover over a menu item (#546E7A) */
 .navbar a {
-  float: left;
+  float: auto;
   font-size: 25px;
-  color: black;
+  /* color: yellow; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  height:75px;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+  /* width: 700px; */
 }
 
 /* The dropdown container 
@@ -44,13 +65,13 @@ Have a transition time of 0.6 seconds.*/
   float: left;
   color: #01579B
   text-align: center;
-  width: 300px;
+  width: auto;
   height: 45px;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 45px; 
+  font-size: 25px; 
   border: none;
   outline: none;
   color: black;
@@ -59,9 +80,29 @@ Have a transition time of 0.6 seconds.*/
   text-align: center;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
-  width:300px;
-  height:70px;
+  width:auto;
+  height:75px;
 }
+
+/* Dropdown button */
+/* The logo should:
+
+Be 42px and have top and bottom padding of 15px, and left and right padding of 35px, and a line height of 35px. */
+
+.dropdown .dropbtn-logo {
+    font-size: 42px; 
+    border: none;
+    outline: none;
+    color: black;
+    padding: 15px 35px;
+    background-color: #01579B;
+    text-align: center;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    width:auto;
+    line-height:35px;
+    height:75px;
+  }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #546E7A;
@@ -74,7 +115,7 @@ Have a transition time of 0.6 seconds.*/
   position: absolute;
   background-color: #01579B;
   text-align: center;
-  min-width: 300px;
+  min-width: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
