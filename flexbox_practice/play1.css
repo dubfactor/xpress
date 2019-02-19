@@ -1,0 +1,15 @@
+.container {
+    height: 90vh;
+    width: 90vw;
+    background: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .container > div {
+    background: skyblue;
+    height: 20vh;
+    width: 20vw;
+ 
+ }
