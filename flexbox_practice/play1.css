@@ -7,7 +7,7 @@
     align-items: center;
  }
  
- .container > div {
+ .container div {
     background: skyblue;
     height: 20vh;
     width: 20vw;
