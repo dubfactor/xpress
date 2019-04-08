@@ -1,0 +1,47 @@
+<!-- <h1>I am the INDEX page</h1> -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class='container'>
+            <form action="/" method="POST">
+                <h1>Bitcoin Price App</h1>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" onchange="this.form.submit();this.select();"
+                    type="radio" name="currency" value="usd">
+                    <label class="form-check-label" for="inlineRadio1">USD</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" onchange="this.form.submit();this.select();"
+                    type="radio" name="currency" value="gbp">
+                    <label class="form-check-label" for="inlineRadio2">GBP</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" onchange="this.form.submit();this.select();"
+                    type="radio" name="currency" value="eur">
+                    <label class="form-check-label" for="inlineRadio3">EUR</label>
+                </div>
+            </form>
+
+            <h1>This is the current price:</h1>
+            <!-- == Get price to display below == -->
+            <p><%- (dataObjectSent.symbol + dataObjectSent.rate) || " " %> </p>
+        </div>
+
+    </body>
+
+    <footer>
+        <div class="container">
+            <p><a href="https://www.coindesk.com/api"> Powered by Coindesk</a></p>
+        </div>
+    </footer>
+
+
+</html>

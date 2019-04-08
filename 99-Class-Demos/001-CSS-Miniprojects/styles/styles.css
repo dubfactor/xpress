@@ -1,0 +1,36 @@
+body {
+    background-color: linen;
+  }
+  
+  h1 {
+    background-color: pink;
+    height: 150px;
+    width: 75%;
+    margin: 20px auto;
+  }
+  
+  p {
+    border: 5px dashed pink;
+    margin: 20px;
+    padding: 25px 50px;
+    outline: red dotted 10px;
+  }
+  
+  h1:nth-child(2n) {
+    text-transform: uppercase;
+  }
+  
+  p:nth-child(2){
+    text-transform: capitalize;
+  }
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    background-color: grey;
+    color: red;
+}

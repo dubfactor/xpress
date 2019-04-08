@@ -1,0 +1,29 @@
+
+<% include partials/header.ejs%>
+
+<div>
+    <form action="/getPrice" method="get">
+        <input type="radio" name="country" value='USD' checked id="">USD
+        <input type="radio" name="country" value='GBP' id="">GBP
+        <input type="radio" name="country" value='EUR' id="">EUR
+        <br><br>
+        <input type="submit" value="Get Price">
+    </form>
+    <br>
+    
+    <h2>This is the current price:
+    <br>
+        <% if (symbol == '&euro;') { %>
+            <span>&euro; <%= rate %></span>
+        <% } else if (symbol == '&pound;') { %>
+            <span>&pound; <%= rate %></span>
+        <% } else { %>  
+            <span>&#36; <%= rate %></span>
+        <% } %>
+    </h2>
+</div>
+
+<% include partials/footer.ejs%>
+
+
+
