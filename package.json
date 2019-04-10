@@ -1,17 +1,20 @@
 {
-  "name": "todos",
+  "name": "todo",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "keywords": [
+    "todo"
+  ],
+  "author": "richard",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
-  }
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
