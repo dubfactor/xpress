@@ -39,4 +39,3 @@ Scheme B (my server making 3rd party HTTP request):
 
 
 ### Solution here please ...
-Backend might have rules against going to 3rd party for data.
