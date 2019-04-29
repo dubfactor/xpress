@@ -16,10 +16,17 @@ Hint: you may use several Number, String and Array methods chained together to a
 
 ### Solution here please ...
 x=1465392 ;
-descendingOrder(x);function descendingOrder(n){
+descendingOrder(x);
+
+function descendingOrder(n){
   let arr = n.toString().split('');
   let arrNum = [];
   console.log(arr);
+
+  <!-- here you are converting to integers before
+  reversing the sort, this is not needed because
+  string integers sort the same way as actual
+  integers.  however i'll not deduct for this -->
   for(var i = 0; i < arr.length; i++){
     arrNum.push(parseInt(arr[i]));
     console.log(arrNum)
@@ -27,5 +34,10 @@ descendingOrder(x);function descendingOrder(n){
   
   let sorted = arrNum.sort(function(a, b){return b-a});
   let sorted2 = sorted.join('');
+  <!-- here you are having to parseInt a second time wastefully -->
   return parseInt(sorted2);
 }
+
+
+<!-- Good effort
+0.8 credit -->

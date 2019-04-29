@@ -11,15 +11,19 @@ and
 
 params are actual route parameters and query contains the query(search) parameters.
 
+<!-- which one is this ... -->
 {
   qs1: 'Atlanta Falcons',
   qs2: 'Matt Ryan'
 }
 
 or
-
+<!-- and which one is this ...  -->
 {
   param1: 'teams/Atlanta Falcons/players/Matt Ryan'
 }
 
+I don't see sample code for defining route params and query params.
+
+0.2 credit
 

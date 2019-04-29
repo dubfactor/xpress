@@ -23,6 +23,10 @@ What color would you expect the item "Sausage" to show as and why?
 The list item of Sweet Halwa is 2, Milk is item 1.
 2 is even.
 Sweet Halwa will be red.
+<!-- no. did you test?   -->
 
 the id of must-buy is referenced in css file as #must-buy. sausage is must-buy. It's text color will be blue
+<!-- this refers to id being more selective in css.  you need
+to talk about that specificity -->
 
+<!-- 0.25 credit for picking blue in 2nd example -->

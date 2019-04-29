@@ -16,7 +16,10 @@ arr is an array declared for var variable
 the array has two items [0, 1]
 
 although the 'foo' variable is set to 'c', that has no use here.
+<!-- Feedback: the variable foo is a property of the arr object, not a member
+and length measures how many members are there. -->
 
 the length of array arr[0,1] (arr.length) is 2
 
 
+0.75 credit

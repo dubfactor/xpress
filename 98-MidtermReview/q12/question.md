@@ -13,4 +13,4 @@ alert(typeof aaa());
 
 This code will return "object" typeof
 
-
+<!-- ok.  full credit -->
