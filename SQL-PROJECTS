@@ -25,6 +25,28 @@ WHERE length(last_name)>6;
 
 PROJECT 3
 
+part A
+
+select employee_id, last_name, salary, commission_pct, hire_date
+from employees
+where (salary > 8000
+and hire_date > '1-jan-1997');
+
+part B
+
+SELECT MIN(salary) FROM hr.employees;
+
+part C ***(UNFINISHED)
+
+SELECT MAX(hr.employees.salary + hr.employees.salary * hr.employees.commission_pct)
+FROM hr.employees 
+where commission_pct IS NOT NULL
+AND (salary > 8000
+AND hire_date > '1-jan-1997')
+UNION
+SELECT MIN(salary)
+FROM hr.employees;
+
 ===================
 
 PROJECT 4
@@ -42,7 +64,10 @@ SELECT first_name, last_name, departments.department_name
 FROM hr.employees, hr.departments
 WHERE department_name = 'Sales';
 
-===============================
+==============================
+
+PROJECT 5
+
 
 
 
