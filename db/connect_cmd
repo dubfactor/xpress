@@ -1,0 +1,1 @@
+PGPASSWORD=xpress_rocks_2019 psql --host=pgdb.accsoftwarebootcamp.com --username=xpress --db=accsoftwarebootcamp
