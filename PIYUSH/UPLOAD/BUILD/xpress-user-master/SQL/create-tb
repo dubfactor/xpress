@@ -1,0 +1,13 @@
+﻿CREATE TABLE users (
+ id serial PRIMARY KEY,
+ first_name VARCHAR(100),
+ last_name VARCHAR(100),
+ email text UNIQUE NOT NULL,
+ city VARCHAR(100),
+ zipcode VARCHAR(100),
+ address VARCHAR(100),
+ registration_date DATE NOT NULL,
+ phone VARCHAR(100),
+ added TIMESTAMP NOT NULL
+ );
+

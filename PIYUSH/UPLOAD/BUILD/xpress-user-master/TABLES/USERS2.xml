@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<report>
+
+  <header>
+    <generated>Sun 30 Jun 2019 01:56:06 AM CDT</generated>
+    <server>testtable (localhost:5432)</server>
+    <database>CRUD-xpress-1</database>
+    <title>Database properties report - CRUD-xpress-1</title>
+  </header>
+
+  <section id="s1" number="1" name="Database properties">
+    <table>
+      <columns>
+        <column id="c1" number="1" name="Property" />
+        <column id="c2" number="2" name="Value" />
+      </columns>
+      <rows>
+        <row id="r1" number="1" c1="Name" c2="CRUD-xpress-1" />
+        <row id="r2" number="2" c1="OID" c2="16435" />
+        <row id="r3" number="3" c1="Owner" c2="dubfactor" />
+        <row id="r4" number="4" c1="ACL" c2="" />
+        <row id="r5" number="5" c1="Tablespace" c2="pg_default" />
+        <row id="r6" number="6" c1="Default tablespace" c2="pg_default" />
+        <row id="r7" number="7" c1="Encoding" c2="UTF8" />
+        <row id="r8" number="8" c1="Collation" c2="en_US.UTF-8" />
+        <row id="r9" number="9" c1="Character type" c2="en_US.UTF-8" />
+        <row id="r10" number="10" c1="Default schema" c2="public" />
+        <row id="r11" number="11" c1="Default table ACL" c2="" />
+        <row id="r12" number="12" c1="Default sequence ACL" c2="" />
+        <row id="r13" number="13" c1="Default function ACL" c2="" />
+        <row id="r14" number="14" c1="Default type ACL" c2="" />
+        <row id="r15" number="15" c1="Allow connections?" c2="Yes" />
+        <row id="r16" number="16" c1="Connected?" c2="Yes" />
+        <row id="r17" number="17" c1="Connection limit" c2="-1" />
+        <row id="r18" number="18" c1="System database?" c2="No" />
+        <row id="r19" number="19" c1="Comment" c2="" />
+      </rows>
+    </table>
+    <sql>-- Database: &#34;CRUD-xpress-1&#34;
+
+-- DROP DATABASE &#34;CRUD-xpress-1&#34;;
+
+CREATE DATABASE &#34;CRUD-xpress-1&#34;
+  WITH OWNER = dubfactor
+       ENCODING = &#39;UTF8&#39;
+       TABLESPACE = pg_default
+       LC_COLLATE = &#39;en_US.UTF-8&#39;
+       LC_CTYPE = &#39;en_US.UTF-8&#39;
+       CONNECTION LIMIT = -1;
+
+</sql>
+  </section>
+
+</report>

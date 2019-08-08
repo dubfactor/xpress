@@ -1,2 +1,0 @@
-// landingProject.js//
-
